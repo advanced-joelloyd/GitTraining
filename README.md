@@ -3,7 +3,7 @@ GETTING STARTED
 
 Installing Git
 --------------
-
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 
 Tools for Git
@@ -83,3 +83,14 @@ git mergetool
 FURTHER READING
 ===============
 
+GitHub Git Cheat Sheet
+----------------------
+[https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+
+Try Git
+-------
+[https://try.github.io](https://try.github.io/)
+
+Video Learning
+--------------
+[http://www.pluralsight.com/courses/git-fundamentals](http://www.pluralsight.com/courses/git-fundamentals)
