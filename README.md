@@ -22,6 +22,13 @@ Installed by default with Git for Windows
 git config
 ----------
 
+Set your name and email for all the repositories on your computer with:
+
+`git config --global user.name "Firstname Lastname"`
+
+`git config --global user.email "youremail@domain.com"`
+
+Now any commits you make will show up with your name attached.
 
 
 WORKING LOCALLY
