@@ -22,6 +22,10 @@ git diff
 
 git stash
 
+git reset
+
+git revert
+
 
 WORKING WITH YOUR OWN REMOTE
 ============================
