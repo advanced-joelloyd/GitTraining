@@ -37,8 +37,19 @@ Set your name and email for all the repositories on your computer with:
 Now any commits you make will show up with your name attached.
 
 
+GLOSSARY
+========
+
+###Commit
+
+###Repository, Repo
+
+###Remote
+
+
 WORKING LOCALLY
 ===============
+
 
 git init
 --------
@@ -116,18 +127,6 @@ git pull
 
 git mergetool
 -------------
-
-
-GLOSSARY
-========
-
-###Commit
-
-###HEAD
-
-###Repository, Repo
-
-###Remote
 
 
 FURTHER READING
