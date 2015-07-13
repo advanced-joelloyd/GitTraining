@@ -4,6 +4,8 @@ WORKING LOCALLY
 
 git init
 
+git config
+
 git status
 
 git add
