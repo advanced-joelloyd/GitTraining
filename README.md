@@ -74,21 +74,23 @@ gitignore
 WORKING WITH YOUR OWN REMOTE
 ============================
 
-SSH on Windows
+Authentication
 --------------
+
+Most hosted remote repositories, e.g. GitHub, will offer at least HTTPS and SSH as ways of authenticating when you are pushing and pulling changes
+
+###HTTPS
+Authenticating to remote repositories with HTTPS is simple - you authenticate with a username and password.  Some Git GUI clients will remember your username and password for you.
+
+HTTPS is a bit simpler to get started with on Windows.
+
+###SSH on Windows
 [https://help.github.com/articles/generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys/)
 
-Your SSH keys will be stored in `C:\Users\YourAccountName\.ssh\`.  If the `.ssh\` folder doesn't exist, don't worry.
+SSH is a little more work to set up on Windows, but offers a similar experience to HTTPS
 
-`ssh-keygen -t rsa -b 4096 -C "youremail@whatever.com"`
+[https://help.github.com/articles/which-remote-url-should-i-use](https://help.github.com/articles/which-remote-url-should-i-use/)
 
-Press `Enter` to save your key in the default folder.
-
-Enter a passphrase for your key.
-
-Open the folder `C:\Users\YourAccountName\.ssh\` and copy the contents of the new `.pub` file.
-
-This is the SSH key you will need to add to your remote repository, e.g. GitHub, so it can authenticate your access.
 
 git remote
 ----------
