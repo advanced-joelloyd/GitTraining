@@ -1,5 +1,5 @@
-GETTING STARTED
-===============
+GETTING STARTED WITH GIT
+========================
 
 Installing Git
 --------------
