@@ -9,8 +9,14 @@ Installing Git
 Tools for Git
 -------------
 
+Windows
+-------
 
+###Cmder
+[http://gooseberrycreative.com/cmder](http://gooseberrycreative.com/cmder/)
 
+###Git Bash
+Installed by default with Git for Windows
 
 git config
 ----------
