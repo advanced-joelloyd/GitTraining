@@ -13,3 +13,13 @@ git commit
 git log
 
 git show
+
+git diff
+
+
+WORKING WITH YOUR OWN REMOTE
+============================
+
+git remote
+
+git push
