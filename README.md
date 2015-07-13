@@ -6,17 +6,18 @@ Installing Git
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 
-Tools for Git
--------------
-
-Windows
--------
+Windows Tools for Git
+---------------------
 
 ###Cmder
 [http://gooseberrycreative.com/cmder](http://gooseberrycreative.com/cmder/)
 
 ###Git Bash
 Installed by default with Git for Windows
+
+###GUIs
+[https://git-scm.com/downloads/guis](https://git-scm.com/downloads/guis)
+
 
 git config
 ----------
