@@ -26,7 +26,7 @@ Set your name and email for all the repositories on your computer with:
 
 `git config --global user.name "Firstname Lastname"`
 
-`git config --global user.email "youremail@domain.com"`
+`git config --global user.email "youremail@whatever.com"`
 
 Now any commits you make will show up with your name attached.
 
@@ -73,6 +73,22 @@ gitignore
 
 WORKING WITH YOUR OWN REMOTE
 ============================
+
+SSH on Windows
+--------------
+[https://help.github.com/articles/generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys/)
+
+Your SSH keys will be stored in `C:\Users\YourAccountName\.ssh\`.  If the `.ssh\` folder doesn't exist, don't worry.
+
+`ssh-keygen -t rsa -b 4096 -C "youremail@whatever.com"`
+
+Press `Enter` to save your key in the default folder.
+
+Enter a passphrase for your key.
+
+Open the folder `C:\Users\YourAccountName\.ssh\` and copy the contents of the new `.pub` file.
+
+This is the SSH key you will need to add to your remote repository, e.g. GitHub, so it can authenticate your access.
 
 git remote
 ----------
