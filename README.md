@@ -12,11 +12,17 @@ Windows Tools for Git
 ###Cmder
 [http://gooseberrycreative.com/cmder](http://gooseberrycreative.com/cmder/)
 
+A good all-purpose command line tool for Windows.  Personal favourite as a Git client on Windows as it bridges the gap between Windows and Linux command line tools.
+
 ###Git Bash
-Installed by default with Git for Windows
+Installed by default with Git for Windows.  Provides a bash terminal with syntax highlighting.
+
+###cmd.exe
+You can use a standard Windows command prompt if you prefer.  References to Git will need to be in your %PATH% variable, which the Git installer can do for you.
 
 ###GUIs
 [https://git-scm.com/downloads/guis](https://git-scm.com/downloads/guis)
+A range of Git GUI clients for all OSes.
 
 
 git config
