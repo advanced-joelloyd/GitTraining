@@ -2,6 +2,8 @@
 WORKING LOCALLY
 ===============
 
+tools for git
+
 git init
 
 git config
