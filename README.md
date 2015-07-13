@@ -94,6 +94,16 @@ git mergetool
 -------------
 
 
+GLOSSARY
+========
+
+###Repository, Repo
+
+###Commit
+
+###Remote
+
+
 FURTHER READING
 ===============
 
