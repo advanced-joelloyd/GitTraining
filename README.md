@@ -1,12 +1,26 @@
+GETTING STARTED
+===============
+
+Installing Git
+--------------
+
+
+
+Tools for Git
+-------------
+
+
+
+
+git config
+----------
+
+
 
 WORKING LOCALLY
 ===============
 
-tools for git
-
 git init
-
-git config
 
 git status
 
