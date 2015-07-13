@@ -50,6 +50,12 @@ git reset
 git revert
 ----------
 
+git rm
+------
+
+gitignore
+---------
+
 
 WORKING WITH YOUR OWN REMOTE
 ============================
