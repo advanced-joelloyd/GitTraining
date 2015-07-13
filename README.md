@@ -97,9 +97,11 @@ git mergetool
 GLOSSARY
 ========
 
-###Repository, Repo
-
 ###Commit
+
+###HEAD
+
+###Repository, Repo
 
 ###Remote
 
