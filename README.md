@@ -92,6 +92,11 @@ Shelve your uncommitted changes
 `git stash`
 
 
+Create a new branch in your repo
+--------------------------------
+`git branch`
+
+
 Set your repo to a point in its history
 ---------------------------------------
 `git checkout`
