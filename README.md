@@ -178,6 +178,14 @@ Create a new branch in your repo
 --------------------------------
 `git branch`
 
+Use `git branch <branchname>` to create a new branch in your local repository.
+
+The new branch will be based on the branch you were in when you branched.  `master` is the default branch that all repos have.
+
+The new branch will have all of the commits from up to the point where you branched.
+
+You can delete a local branch with `git branch -d <branchname>`.
+
 
 Set your repo to a point in its history
 ---------------------------------------
