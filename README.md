@@ -200,7 +200,6 @@ Any uncommitted changes will be not be changed.
 You can create a new branch and switch to it immediately using `git checkout -b <branchname>`.
 
 
-
 Merge changes from one branch into another
 ------------------------------------------
 `git merge`
@@ -215,6 +214,11 @@ If there are merge conflicts, you will need to resolve the conflicts, and then e
 
 * `git merge --abort` to undo any merged changes and go back to before you merged
 * `git commit -m "A commit message"` to commit the conflict changes and complete the merge.
+
+
+Use a 3rd party tool to resolve merge conflicts
+-----------------------------------------------
+`git mergetool`
 
 
 Set your repo to a point in its history
@@ -283,9 +287,7 @@ Get and merge changes from a remote repo to your local repo
 `git pull`
 
 
-Use a 3rd party tool to resolve merge conflicts
------------------------------------------------
-`git mergetool`
+
 
 
 FURTHER READING
