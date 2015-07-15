@@ -84,9 +84,22 @@ Staged files will be in green.
 
 Untracked files and unstaged changes will be in red.
 
+
 Commit your changes
 -------------------
 `git commit`
+
+Use `git commit -m "A commit message"` to save all staged changes to your local repository as a single changeset with an attached message.
+
+If you don't supply the `-m` switch, Git will prompt you for a commit message by thrusting you into the Vim text editor.
+
+Don't panic!
+
+If you know how to use Vim, great!
+
+If not, carefully type `:q!` to exit Vim and try again.  
+
+Now you can correctly enter `git commit -m "A commit message"` and your changes will be saved.
 
 
 See commit history
