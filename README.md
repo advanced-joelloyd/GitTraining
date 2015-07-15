@@ -152,6 +152,13 @@ See your uncommitted changes
 -------------------------------
 `git diff`
 
+This shows you the uncommitted changes in your working directory.
+
+* `git diff` shows changes not yet staged
+* `git diff --cached` shows what will be committed if you commit now without staging anything else, i.e. `git commit -m`
+* `git diff HEAD` shows what will be committed if you staged everything, i.e. `git commit -am`
+
+It can also be used to see differences between commits and branches.  See the full documentation at [https://git-scm.com/docs/git-diff](https://git-scm.com/docs/git-diff.)
 
 Shelve your uncommitted changes
 -------------------------------
