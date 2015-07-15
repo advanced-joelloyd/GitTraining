@@ -220,6 +220,11 @@ Use a 3rd party tool to resolve merge conflicts
 -----------------------------------------------
 `git mergetool`
 
+	[merge]
+	    tool = kdiff3
+	[mergetool "kdiff3"]
+    	cmd = \"C:\\\\Program Files (x86)\\\\KDiff3\\\\kdiff3\" $BASE $LOCAL $REMOTE -o $MERGED
+
 
 FIXING MISTAKES
 ===============
