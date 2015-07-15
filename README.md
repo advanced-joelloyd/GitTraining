@@ -101,6 +101,18 @@ If not, carefully type `:q!` to exit Vim and try again.
 
 Now you can correctly enter `git commit -m "A commit message"` and your changes will be saved.
 
+###Shortcuts!
+
+You can stage all unstaged changes and commit them in one command with:
+
+`git commit -a -m "A commit message"`
+
+This can be shortened again to:
+
+`git commit -am "A commit message"`
+
+Note: this will not affect untracked files.  You will need to `git add` any untracked files to include them in your commit.
+
 
 See commit history
 -----------------------
