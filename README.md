@@ -118,10 +118,34 @@ See commit history
 -----------------------
 `git log`
 
+This shows you a list of all the commits on your current branch.
+
+Each commit has its own unique commit ID.
+
+You can scroll up and down the history using `Page Up` and `Page Down`.
+
+Press `Q` to exit the history and go back to the command line.
+
+You can see just a range of history, e.g.
+
+* `git log -n 5` shows the five most recent commits
+* `git log --since="45 minutes ago"` shows commits going back forty-five minutes
+* `git log --since="2 months 3 weeks 1 day 2 hours 30 minutes 59 seconds ago"` shows commits going back nearly three months
+* `git log --after="2015-01-07"` shows commits after the 7th July 2015
+* `git log --before="2015-01-07"` shows commits before the 7th July 2015
+
+`git log` has a lot more switches for more specific searches.
+
+You can see the full range at [https://git-scm.com/docs/git-log](https://git-scm.com/docs/git-log).
+
 
 See details for a commit
 ------------------------
 `git show`
+
+Use `git show <commitid>` to see the changes in a single commit.  
+
+Replace `<commitid>` with a commit ID, which you can see from `git log`.
 
 
 See your uncommitted changes
