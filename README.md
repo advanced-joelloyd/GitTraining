@@ -221,6 +221,9 @@ Use a 3rd party tool to resolve merge conflicts
 `git mergetool`
 
 
+FIXING MISTAKES
+===============
+
 Set your repo to a point in its history
 ---------------------------------------
 `git checkout`
