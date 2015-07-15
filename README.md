@@ -92,6 +92,11 @@ Shelve your uncommitted changes
 `git stash`
 
 
+Set your repo to a point in its history
+---------------------------------------
+`git checkout`
+
+
 Undo your uncommitted changes and staging
 --------------------------------
 `git reset`
