@@ -38,16 +38,6 @@ Set your name and email for all the repositories on your computer with:
 Now any commits you make will show up with your name attached.
 
 
-GLOSSARY
-========
-
-###Commit
-
-###Repository, Repo
-
-###Remote
-
-
 WORKING LOCALLY
 ===============
 
