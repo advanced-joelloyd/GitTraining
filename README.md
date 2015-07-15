@@ -164,6 +164,15 @@ Shelve your uncommitted changes
 -------------------------------
 `git stash`
 
+This stores the current changes in your repo, then undoes the changes so your working directory is unchanged.
+
+You can then recover the stashed changes at a later point.
+
+* `git stash list` shows you all of your stashed changesets
+* `git stash pop` applies the changes from the most recent stash back to your working directory, and removes that stash, aka 'unstash'
+* `git stash drop` deletes the most recent stashed changeset
+* `git stash clear` deletes all of your stashed changesets
+
 
 Create a new branch in your repo
 --------------------------------
