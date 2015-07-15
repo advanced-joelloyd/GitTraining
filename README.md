@@ -184,8 +184,6 @@ The new branch will be based on the branch you were working in when you branched
 
 The new branch will have all of the commits from up to the point where you branched.
 
-Any uncommitted changes will be unchanged, and you can commit them to your new branch if needed.
-
 You can delete a local branch with `git branch -d <branchname>`.
 
 
@@ -193,6 +191,13 @@ Change your current working branch
 ----------------------------------
 `git checkout`
 
+Use `git checkout <branchname>` to change your working branch to `<branchname>`.
+
+Any uncommitted changes will be not be changed.
+
+####Shortcut!
+
+You can create a new branch and switch to it immediately using `git checkout -b <branchname>`.
 
 
 
