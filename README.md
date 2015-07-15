@@ -192,6 +192,11 @@ Set your repo to a point in its history
 `git checkout`
 
 
+Merge changes from one branch into another
+------------------------------------------
+`git merge`
+
+
 Undo your uncommitted changes and staging
 --------------------------------
 `git reset`
