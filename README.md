@@ -205,6 +205,17 @@ Merge changes from one branch into another
 ------------------------------------------
 `git merge`
 
+Use `git merge <branchname>` to merge changes from the branch `<branchname>` to the branch you are currently working in.
+
+If there are no merge conflicts, the changes from `<branchname>` will be copied to your working branch.
+
+You can see the new commits using `git log`.
+
+If there are merge conflicts, you will need to resolve the conflicts, and then either:
+
+* `git merge --abort` to undo any merged changes and go back to before you merged
+* `git commit -m "A commit message"` to commit the conflict changes and complete the merge.
+
 
 Set your repo to a point in its history
 ---------------------------------------
