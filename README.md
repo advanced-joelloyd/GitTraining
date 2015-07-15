@@ -242,8 +242,8 @@ Stop Git from tracking files and folders
 `gitignore`
 
 
-WORKING WITH YOUR OWN REMOTE
-============================
+WORKING WITH REMOTE REPOSITORIES
+================================
 
 Authentication
 --------------
@@ -272,9 +272,6 @@ Send your changes to a remote repo
 ----------------------------------------
 `git push`
 
-
-WORKING WITH OTHERS
-===================
 
 Get a local copy of a remote repo
 ---------------------------------
