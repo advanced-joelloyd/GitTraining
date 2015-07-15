@@ -133,24 +133,32 @@ SSH is a little more work to set up on Windows, but offers a similar experience 
 [https://help.github.com/articles/which-remote-url-should-i-use](https://help.github.com/articles/which-remote-url-should-i-use/)
 
 
-git remote
-----------
+Manage links with remote repos
+-------------------------------------
+`git remote`
 
-git push
---------
+
+Send your changes to a remote repo
+----------------------------------------
+`git push`
 
 
 WORKING WITH OTHERS
 ===================
 
-git clone
----------
+Get a local copy of a remote repo
+---------------------------------
+`git clone`
 
-git pull
---------
 
-git mergetool
--------------
+Get and merge changes from a remote repo to your local repo
+-----------------------------------------------------------
+`git pull`
+
+
+Use a 3rd party tool to resolve merge conflicts
+-----------------------------------------------
+`git mergetool`
 
 
 FURTHER READING
