@@ -22,6 +22,7 @@ You can use a standard Windows command prompt if you prefer.  References to Git 
 
 ###GUIs
 [https://git-scm.com/downloads/guis](https://git-scm.com/downloads/guis)
+
 A range of Git GUI clients for all OSes.
 
 
@@ -30,9 +31,9 @@ git config
 
 Set your name and email for all the repositories on your computer with:
 
-`git config --global user.name "Firstname Lastname"`
+```git config --global user.name "Firstname Lastname"```
 
-`git config --global user.email "youremail@whatever.com"`
+```git config --global user.email "youremail@whatever.com"```
 
 Now any commits you make will show up with your name attached.
 
@@ -51,41 +52,64 @@ WORKING LOCALLY
 ===============
 
 
-git init
---------
+Create a new repo
+-----------------
+`git init`
 
-git status
-----------
 
-git add
--------
+See your repo's current state
+-----------------------------
+`git status`
 
-git commit
-----------
 
-git log
--------
+Stage your changes to be committed
+-----------------------------
+`git add`
 
-git show
---------
 
-git diff
---------
+Commit your changes
+-------------------
+`git commit`
 
-git stash
+
+See commit history
+-----------------------
+`git log`
+
+
+See details for a commit
+------------------------
+`git show`
+
+
+See your uncommitted changes
+-------------------------------
+`git diff`
+
+
+Shelve your uncommitted changes
+-------------------------------
+`git stash`
+
+
+Undo your uncommitted changes and staging
+--------------------------------
+`git reset`
+
+
+Undo committed changes
+----------------------
+`git revert`
+
+
+Remove files from your repository
+----------------------------
+`git rm`
+
+
+Stop Git from tracking files and folders
 ---------
-
-git reset
----------
-
-git revert
-----------
-
-git rm
-------
-
-gitignore
----------
+`gitignore`
 
 
 WORKING WITH YOUR OWN REMOTE
