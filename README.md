@@ -46,16 +46,43 @@ Create a new repo
 -----------------
 `git init`
 
+This creates a new Git repository in your current working folder.
+
+A hidden `.git/` folder will appear at the top level.  All Git data is contained in this top-level folder.
+
+The repository is self-contained, and can be moved and copied anywhere and remain intact.
+
 
 See your repo's current state
 -----------------------------
 `git status`
+
+This shows you all uncommitted changes, including:
+
+* Staged changes - changes that will be included in your next commit
+* Unstaged changes - changes to files in your repo that you have not staged
+* Untracked files - files that don't exist in your repo
 
 
 Stage your changes to be committed
 -----------------------------
 `git add`
 
+Use `git add` to track files and stage changes.  You must specify what changes you want to stage, e.g.
+
+* `git add myfile.txt` stages any changes to the file `myfile.txt`
+* `git add *.txt` stages any changes to files with the extension `.txt`
+* `git add src/` stages any changes to files in the folder `src/`
+
+You can also stage all changes and new files by using:
+
+* `git add --all`
+
+Use `git status` to see which files you've staged.  
+
+Staged files will be in green.  
+
+Untracked files and unstaged changes will be in red.
 
 Commit your changes
 -------------------
