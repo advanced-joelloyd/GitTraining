@@ -101,7 +101,7 @@ If not, carefully type `:q!` to exit Vim and try again.
 
 Now you can correctly enter `git commit -m "A commit message"` and your changes will be saved.
 
-###Shortcuts!
+####Shortcuts!
 
 You can stage all unstaged changes and commit them in one command with:
 
@@ -180,21 +180,30 @@ Create a new branch in your repo
 
 Use `git branch <branchname>` to create a new branch in your local repository.
 
-The new branch will be based on the branch you were in when you branched.  `master` is the default branch that all repos have.
+The new branch will be based on the branch you were working in when you branched.  `master` is the default branch that all repos have.
 
 The new branch will have all of the commits from up to the point where you branched.
+
+Any uncommitted changes will be unchanged, and you can commit them to your new branch if needed.
 
 You can delete a local branch with `git branch -d <branchname>`.
 
 
-Set your repo to a point in its history
----------------------------------------
+Change your current working branch
+----------------------------------
 `git checkout`
+
+
 
 
 Merge changes from one branch into another
 ------------------------------------------
 `git merge`
+
+
+Set your repo to a point in its history
+---------------------------------------
+`git checkout`
 
 
 Undo your uncommitted changes and staging
