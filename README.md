@@ -281,14 +281,21 @@ For any other use, `git push <alias> <branchname>` will send your changes to the
 If there are commits on the remote that you do not have in your local repo, your `push` will be cancelled and you will need to `pull` the changes.
 
 
+Get and merge changes from a remote repo to your local repo
+-----------------------------------------------------------
+`git pull`
+
+Use `git pull <alias> <branchname>` to retrieve commits on the remote repo that you don't have locally.
+
+It will fetch the changes and automatically `git merge` them into your local repo.
+
+If there are any merge conflicts, you will need to deal with them as per `git merge` above.
+
+
 Get a local copy of a remote repo
 ---------------------------------
 `git clone`
 
-
-Get and merge changes from a remote repo to your local repo
------------------------------------------------------------
-`git pull`
 
 
 FIXING MISTAKES
