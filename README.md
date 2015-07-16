@@ -204,7 +204,7 @@ Merge changes from one branch into another
 ------------------------------------------
 `git merge`
 
-Use `git merge <branchname>` to merge changes from the branch `<branchname>` to the branch you are currently working in.
+Use `git merge <branchname>` to merge changes from the branch `<branchname>` into the branch you are currently working in.
 
 If there are no merge conflicts, the changes from `<branchname>` will be copied to your working branch.
 
@@ -219,6 +219,12 @@ If there are merge conflicts, you will need to resolve the conflicts, and then e
 Use a 3rd party tool to resolve merge conflicts
 -----------------------------------------------
 `git mergetool`
+
+Git does not have a build-in tool for resolving merge conflicts.
+
+You can plug in your favourite and the `git mergetool` command will drive it to display any outstanding merge conflicts.
+
+You can plug in your preferred mergetool by opening the file `C:\Users\YourUsername\.gitconfig` and adding the following section:
 
 	[merge]
 	    tool = kdiff3
@@ -250,6 +256,12 @@ SSH is a little more work to set up on Windows, but offers a similar experience 
 Manage links with remote repos
 -------------------------------------
 `git remote`
+
+This allows you to manage links with other repositories - usually a mirror that one or more people are synchronising their changes through, e.g. GitHub.
+
+* `git remote -v` shows you a list of remote links with an alias (usually `origin`)
+* `git remote add <alias> <url>` adds a link to the url with the given alias, e.g. `git remote add origin https://github.com/advanced-joelloyd/GitTraining.git`
+* `git remote remove <alias>` removes the link called `<alias>`, e.g. `git remote remove origin`
 
 
 Send your changes to a remote repo
