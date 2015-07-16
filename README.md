@@ -366,7 +366,7 @@ Deleting commit changes
 -----------------------
 `git reset`
 
-As well as unstaging changes, `git reset` can be used to completed delete commits from your local repo.
+As well as unstaging changes, `git reset --hard` can be used to completed delete commits from your local repo.
 
 * `git reset --hard HEAD~1` deletes the most recent commit
 * `git reset --hard HEAD~3` deletes the last three commits
@@ -381,7 +381,7 @@ Remove files from your repository
 
 Stop Git from tracking files and folders
 ---------
-`gitignore`
+`.gitignore`
 
 
 FURTHER READING
