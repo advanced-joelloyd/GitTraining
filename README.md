@@ -296,6 +296,9 @@ Get a local copy of a remote repo
 ---------------------------------
 `git clone`
 
+Use `git clone <url>` to get a fresh local copy of a remote repository.
+
+It will automatically create a local repo, get the latest changes and set the remote links for you.
 
 
 FIXING MISTAKES
