@@ -226,34 +226,6 @@ Use a 3rd party tool to resolve merge conflicts
     	cmd = \"C:\\\\Program Files (x86)\\\\KDiff3\\\\kdiff3\" $BASE $LOCAL $REMOTE -o $MERGED
 
 
-FIXING MISTAKES
-===============
-
-Set your repo to a point in its history
----------------------------------------
-`git checkout`
-
-
-Undo your uncommitted changes and staging
---------------------------------
-`git reset`
-
-
-Undo committed changes
-----------------------
-`git revert`
-
-
-Remove files from your repository
-----------------------------
-`git rm`
-
-
-Stop Git from tracking files and folders
----------
-`gitignore`
-
-
 WORKING WITH REMOTE REPOSITORIES
 ================================
 
@@ -295,7 +267,32 @@ Get and merge changes from a remote repo to your local repo
 `git pull`
 
 
+FIXING MISTAKES
+===============
 
+Set your repo to a point in its history
+---------------------------------------
+`git checkout`
+
+
+Undo your uncommitted changes and staging
+--------------------------------
+`git reset`
+
+
+Undo committed changes
+----------------------
+`git revert`
+
+
+Remove files from your repository
+----------------------------
+`git rm`
+
+
+Stop Git from tracking files and folders
+---------
+`gitignore`
 
 
 FURTHER READING
