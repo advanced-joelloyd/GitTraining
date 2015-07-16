@@ -200,6 +200,17 @@ Any uncommitted changes will be not be changed.
 You can create a new branch and switch to it immediately using `git checkout -b <branchname>`.
 
 
+Set your repo to a point in its history
+---------------------------------------
+`git checkout`
+
+As well as switching branches, you can use `git checkout` to move to a particular point in your commit history.
+
+* `git checkout <commitid>` changes all the files in your local repo to match everything as it existed at the time of the given `<commitid>`
+
+You can return to normal with `git checkout <branchname>`.
+
+
 Merge changes from one branch into another
 ------------------------------------------
 `git merge`
@@ -303,10 +314,6 @@ It will automatically create a local repo, get the latest changes and set the re
 
 FIXING MISTAKES
 ===============
-
-Set your repo to a point in its history
----------------------------------------
-`git checkout`
 
 
 Undo your uncommitted changes and staging
