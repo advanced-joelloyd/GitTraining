@@ -326,9 +326,21 @@ Use `git checkout .` to discard all of your uncommitted changes.
 It will not delete untracked files.
 
 
+Deleting untracked files
+------------------------
+`git clean`
+
+This allows you to delete untracked files from your local repository, e.g., left-over merge files, build artifacts, log files.
+
+* `git clean -f` removes every untracked file
+* `git clean -fd` removes every untracked file and folder
+
+
 Undo your uncommitted changes and staging
 --------------------------------
 `git reset`
+
+This will
 
 
 Undo committed changes
