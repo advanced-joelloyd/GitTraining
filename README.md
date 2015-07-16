@@ -263,10 +263,22 @@ This allows you to manage links with other repositories - usually a mirror that 
 * `git remote add <alias> <url>` adds a link to the url with the given alias, e.g. `git remote add origin https://github.com/advanced-joelloyd/GitTraining.git`
 * `git remote remove <alias>` removes the link called `<alias>`, e.g. `git remote remove origin`
 
+There is a convention to call your repo's default remote mirror `origin`, and you will see this in most examples.  
+
+It is only a convention.  If you want to call your remote `pineapple` you can do so and it will be local to you.
+
 
 Send your changes to a remote repo
 ----------------------------------------
 `git push`
+
+This allows you to send your local commits to a remote repository.
+
+If you have created a new repo or branch locally, use `git push -u <alias> <branchname>` to push it to the remote repo for the first time.  `-u` will link your local branch with the remote and make synchronising changes easier.
+
+For any other use, `git push <alias> <branchname>` will send your changes to the remote.
+
+If there are commits on the remote that you do not have in your local repo, your `push` will be cancelled and you will need to `pull` the changes.
 
 
 Get a local copy of a remote repo
