@@ -359,6 +359,20 @@ This allows you to reverse the changes in existing commits with a new commit.
 
 You will then be able to view the undo commits in your history with `git log`.
 
+This is a safe way of undoing committed changes if they have already been pushed to a remote repo.
+
+
+Deleting commit changes
+-----------------------
+`git reset`
+
+As well as unstaging changes, `git reset` can be used to completed delete commits from your local repo.
+
+* `git reset --hard HEAD~1` deletes the most recent commit
+* `git reset --hard HEAD~3` deletes the last three commits
+
+BEWARE: the deleted commits disappear, so you are rewriting history.  This command is best used only on local commits.
+
 
 Remove files from your repository
 ----------------------------
