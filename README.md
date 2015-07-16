@@ -336,11 +336,15 @@ This allows you to delete untracked files from your local repository, e.g., left
 * `git clean -fd` removes every untracked file and folder
 
 
-Undo your uncommitted changes and staging
+Undo your staging
 --------------------------------
 `git reset`
 
-This will
+Use `git reset` on its own to undo any staging you have done.
+
+This essentially reverses the `git add` command.
+
+It does not affect any of your uncommitted changes.
 
 
 Undo committed changes
