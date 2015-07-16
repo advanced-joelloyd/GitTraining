@@ -315,6 +315,13 @@ It will automatically create a local repo, get the latest changes and set the re
 FIXING MISTAKES
 ===============
 
+Discard your local changes
+--------------------------
+`git checkout`
+
+Use `git checkout .` to discard all of your uncommitted changes.
+
+It will not delete untracked files.
 
 Undo your uncommitted changes and staging
 --------------------------------
