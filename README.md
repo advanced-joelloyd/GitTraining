@@ -178,6 +178,8 @@ Create a new branch in your repo
 --------------------------------
 `git branch`
 
+You can see a list of your local branches with `git branch`.
+
 Use `git branch <branchname>` to create a new branch in your local repository.
 
 The new branch will be based on the branch you were working in when you branched.  `master` is the default branch that all repos have.
@@ -322,6 +324,7 @@ Discard your local changes
 Use `git checkout .` to discard all of your uncommitted changes.
 
 It will not delete untracked files.
+
 
 Undo your uncommitted changes and staging
 --------------------------------
