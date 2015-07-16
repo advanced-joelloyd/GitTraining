@@ -351,6 +351,14 @@ Undo committed changes
 ----------------------
 `git revert`
 
+This allows you to reverse the changes in existing commits with a new commit.
+
+* `git revert HEAD~1` commits changes that reverses the changes in your last commit
+* `git revert HEAD~3` commits changes that reverses the changes in your third-last commit
+* `git revert HEAD~3..HEAD~1` commits changes that reverses the changes from your last to third-last commit
+
+You will then be able to view the undo commits in your history with `git log`.
+
 
 Remove files from your repository
 ----------------------------
